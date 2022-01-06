@@ -1,7 +1,7 @@
 function addNumbers(a: number, b: number) { 
-    return a + b; 
+    return a - b; 
 } 
 
-var sum: number = addNumbers(10, 15) 
+var total: number = addNumbers(15, 10) 
 
-console.log('Sum of the two numbers is: ' +sum); 
+console.log('total of the two numbers is: ' +total); 
